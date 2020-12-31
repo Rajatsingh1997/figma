@@ -30,14 +30,14 @@
 }
 .secondbtn {
   height: 40px;
-  width: 166px;
+  /* width: 166px; */
   left: 637px;
   top: 391px;
   font-size: 14px;
   text-align: center;
   margin: auto;
   margin-top: 25px;
-  display: flex;
+  display: flex !important;
   justify-content: center;
 }
 .Group {

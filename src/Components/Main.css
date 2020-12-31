@@ -1,0 +1,37 @@
+.bground {
+  background-image: url("../Assets/Rectangle.png");
+}
+.top {
+  text-align: center;
+  /* font-family: ; */
+}
+.dummy {
+  /* margin-bottom: -150px; */
+  height:112px;
+  padding: 0px 20px;
+}
+.maindiv{
+    /* border:1px solid black; */
+}
+.run {
+  text-align: center;
+  margin-top: 15px;
+}
+.keep {
+  margin-top: 80px;
+}
+.connect {
+  margin-top: 16px;
+  height: 21px;
+  width: 483px;
+  left: 478px;
+  top: 621px;
+  border-radius: nullpx;
+}
+.learn {
+  height: 48px;
+  width: 539.2413940429688px;
+  left: 450.3792724609375px;
+  top: 125px;
+  border-radius: nullpx;
+}

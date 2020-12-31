@@ -1,10 +1,9 @@
-
 import Navbr from "./Components/Navbr"
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./Components/Header"
 import BodyBox from "./Components/BodyBox";
 import Works from "./Components/Works";
+import Footer from "./Components/Footer";
+import Main from "./Components/Main";
 
 function App() {
   return (
@@ -12,7 +11,9 @@ function App() {
       <Navbr/>
       <Header/> 
       <BodyBox/> 
-      <Works/>  
+      <Works/> 
+      <Main/>
+      <Footer/> 
     </div>
   );
 }
