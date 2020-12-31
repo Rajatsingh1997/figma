@@ -1,0 +1,22 @@
+.maindiv {
+  /* height: 508px; */
+  width: 754px;
+  /* left: 343px;
+  top: 666px; */
+  background-color: white;
+  margin: auto;
+  /* margin-bottom: 20px; */
+  margin-top: 24px;
+  position: relative;
+    top: 110px;
+  box-shadow: 0 14px 57px 0 #C2D1D9, 0 14px 38px 0 #C2D1D9;
+}
+.sediv {
+  /* height: 62px; */
+  width: 500px;
+  /* left: 470px;
+  top: 706px; */
+  border-radius: 0px;
+  margin: auto;
+  padding-top: 40px;
+}

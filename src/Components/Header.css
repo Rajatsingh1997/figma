@@ -1,0 +1,54 @@
+.Black {
+  width: 100%;
+}
+.header-one {
+  background-image: url("../Assets/Black.svg");
+}
+.firstrow {
+  font-family: url("https://fonts.googleapis.com/css?family=Noto Sans");
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 168px;
+}
+.second {
+  height: 31px;
+  width: 556px;
+  left: 442px;
+  top: 328px;
+  border-radius: nullpx;
+  font-family: url("https://fonts.googleapis.com/css?family=Roboto");
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.secondbtn {
+  height: 40px;
+  /* width: 166px; */
+  left: 637px;
+  top: 391px;
+  font-size: 14px;
+  text-align: center;
+  margin: auto;
+  margin-top: 25px;
+  display: flex !important;
+  justify-content: center;
+}
+.Group {
+  margin-left: 83px;
+  margin-top: 5px;
+  margin-bottom: 102px;
+}
+.Group2 {
+  height: 275px;
+  width: 379px;
+  left: 987px;
+  top: 278px;
+  border-radius: 0px;
+}

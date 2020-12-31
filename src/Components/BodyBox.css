@@ -1,0 +1,28 @@
+.main {
+
+  width: 950px;
+  left: 245px;
+  border-radius: 0px;
+  margin-top: 200px !important;
+  margin: auto;
+  margin-bottom: 131px;
+  font-family: url("https://fonts.googleapis.com/css?family=Roboto");
+ 
+}
+.box1 {
+  background-color: rgba(229, 229, 229, 0.1);
+  height: 289.99993896484375px;
+  width: 266.22314453125px;
+  border-radius: 0px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+}
+h5{
+    margin-top: 25px;
+}
+small{
+    color: rgba(51, 51, 51, 0.6);
+    margin-top: 20px;
+}
