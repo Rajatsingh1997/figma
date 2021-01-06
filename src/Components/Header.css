@@ -1,8 +1,7 @@
-.Black {
-  width: 100%;
-}
 .header-one {
   background-image: url("../Assets/Black.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .firstrow {
   font-family: url("https://fonts.googleapis.com/css?family=Noto Sans");
@@ -15,8 +14,6 @@
   margin-top: 168px;
 }
 .second {
-  height: 31px;
-  width: 556px;
   left: 442px;
   top: 328px;
   border-radius: nullpx;
@@ -30,7 +27,7 @@
 }
 .secondbtn {
   height: 40px;
-  /* width: 166px; */
+  min-width: 166px;
   left: 637px;
   top: 391px;
   font-size: 14px;
@@ -39,16 +36,48 @@
   margin-top: 25px;
   display: flex !important;
   justify-content: center;
+ 
 }
 .Group {
-  margin-left: 83px;
   margin-top: 5px;
-  margin-bottom: 102px;
+  margin-bottom: 80px; 
 }
 .Group2 {
   height: 275px;
-  width: 379px;
   left: 987px;
   top: 278px;
   border-radius: 0px;
+}
+@media only screen and (max-width: 900px) {
+  .Group {
+  width: 150px;
+    text-align: center; 
+  }
+  .Group2 {
+    /* display: block; */
+    text-align: center;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 557px) {
+  .Group {
+  width: 80px;
+    text-align: center; 
+  }
+  .Group2 {
+    /* display: block; */
+    text-align: center;
+    width: 80px;
+  }
+}
+@media only screen and (max-width: 416px) {
+  .Group {
+    width: 50px;
+    text-align: center; 
+  }
+  .Group2 {
+    text-align: center;
+    width: 50px;
+  }
 }

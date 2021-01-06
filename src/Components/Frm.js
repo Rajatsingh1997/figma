@@ -3,12 +3,12 @@ import { Form, Button, Container } from "react-bootstrap";
 import "./Frm.css";
 function Frm() {
   return (
-    <div className="maindiv">
+    <div className="maindiv mb-5">
      
         <Form className="sediv">
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Name</Form.Label>
-            <Form.Control type="text" />
+            <Form.Control type="text"/>
           </Form.Group>
 
           <Form.Group controlId="formBasicPassword">
@@ -23,9 +23,11 @@ function Frm() {
             <Form.Label>Example textarea</Form.Label>
             <Form.Control as="textarea" rows={3} />
           </Form.Group>
-          <Button variant="primary" type="submit">
+          <div className="submitbtn">
+          <Button variant="primary" type="submit" style={{width:"30%"}}>
             Submit
           </Button>
+          </div>
         </Form>
      
     </div>

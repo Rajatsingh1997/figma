@@ -1,18 +1,14 @@
 .bground {
   background-image: url("../Assets/Rectangle.png");
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 .top {
   text-align: center;
-  /* font-family: ; */
 }
-.dummy {
-  /* margin-bottom: -150px; */
-  height:112px;
-  padding: 0px 20px;
-}
-.maindiv{
-    /* border:1px solid black; */
-}
+
 .run {
   text-align: center;
   margin-top: 15px;
@@ -26,12 +22,20 @@
   width: 483px;
   left: 478px;
   top: 621px;
-  border-radius: nullpx;
+
 }
 .learn {
   height: 48px;
   width: 539.2413940429688px;
   left: 450.3792724609375px;
   top: 125px;
-  border-radius: nullpx;
+}
+.manage{
+    margin-bottom: -90px;
+}
+#Card{
+    font-family: url('https://fonts.googleapis.com/css?family=Noto Sans');
+}
+.centerdiv{
+    justify-content: center;
 }

@@ -1,20 +1,25 @@
-import React from "react";
-import { Navbar, Button } from "react-bootstrap";
+import React,{useState} from "react";
+import { Navbar, Button,Nav } from "react-bootstrap";
 import logo from "../Assets/logo.svg";
 import "./Navbr.css";
 function Navbr() {
+  const[click,setClick]=useState("false")
   return (
-    <div className="topNav">
-      <Navbar>
+    <>
+      <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="topNav">
         <Navbar.Brand href="#home">
-          <img className="logo1" src={logo} />
+          <img className="ml-5" src={logo} />
         </Navbar.Brand>
-        <Navbar.Toggle />
-        <div class="collapse navbar-collapse box" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="#features"></Nav.Link>
+            <Nav.Link href="#pricing">
+            <div className="d-flex justify-content-center box">
+            <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" href="#">
-                HOME <span class="sr-only">(current)</span>
+                HOME <span class="sr-only"></span>
               </a>
             </li>
             <li class="nav-item">
@@ -42,18 +47,22 @@ function Navbr() {
                 PRICING
               </a>
             </li>
-           
           </ul>
-        </div>
-        <Navbar.Collapse className="justify-content-end">
-          <Navbar.Text>
-            <Button className="navbtn" variant="primary">
-              Try it for free
-            </Button>{" "}
-          </Navbar.Text>
+          </div>
+            </Nav.Link>
+          </Nav>
+
+          <Nav>
+            <Nav.Link href="#deets"></Nav.Link>
+            <Nav.Link eventKey={2} href="#memes">
+              <Button className="navbtn" variant="primary">
+                Try it for free
+              </Button>{" "}
+            </Nav.Link>
+          </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </div>
+    </>
   );
 }
 

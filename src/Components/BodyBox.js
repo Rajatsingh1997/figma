@@ -1,17 +1,20 @@
 import React from "react";
 import "./BodyBox.css";
+import {Container} from "react-bootstrap";
 import first from "../Assets/first.svg";
 import secondimg from "../Assets/second.svg";
 import third from "../Assets/third.svg";
 function BodyBox() {
   return (
+    <>
+    <Container>
     <div className="main">
       <div className="row">
         <div className="col-sm-4 box1">
-          <div className="card">
+          <div className="card forshadow"> 
             <div className="card-body">
               <img className="first mx-auto d-block" src={first} />
-              <h5 className="card-title">Employee Engagement</h5>
+              <h5 className="card-titlefirst">Employee Engagement</h5>
               <small className="card-text">
                 Engage your entire workforce in ideation. Break down department,
                 language, and geographic barriers. Empower company-wide
@@ -21,7 +24,7 @@ function BodyBox() {
           </div>
         </div>
         <div className="col-sm-4">
-          <div className="card">
+          <div className="card forshadow">
             <div className="card-body">
               <img className="secondimg mx-auto d-block" src={secondimg} />
               <h5 className="card-title">Continuouse Improvement</h5>
@@ -34,7 +37,7 @@ function BodyBox() {
           </div>
         </div>
         <div className="col-sm-4">
-          <div className="card">
+          <div className="card forshadow">
             <div className="card-body">
               <img className="third mx-auto d-block" src={third} />
               <h5 className="card-title">High Return of Investment</h5>
@@ -48,6 +51,8 @@ function BodyBox() {
         </div>
       </div>
     </div>
+    </Container>
+    </>
   );
 }
 
