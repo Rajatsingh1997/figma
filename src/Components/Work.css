@@ -1,0 +1,12 @@
+.textCenter{
+    display: flex;
+    justify-content: center;
+}
+.lefttake{
+    margin-left: 188px;
+    color: blue;
+    margin-top: 124px;
+}
+.works{
+    margin-bottom: 64px;
+}
