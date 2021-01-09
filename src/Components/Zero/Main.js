@@ -7,7 +7,7 @@ function Main() {
   return (
     <>
       <div className="bground">
-        <div className="top">
+        <div className="top text-center">
           <h3>Resources</h3>
           <small className="learn mb-4">
             Learn more on how to successfully manage innovation at your
@@ -19,7 +19,7 @@ function Main() {
           <div className="mt-4">
             <Row>
               <Col>
-                <Card>
+                <Card className="h-400">
                   <Card.Body>
                     <Card.Title className="mt-3 mb-4">
                       <small>20 oct 2019 | by</small>
@@ -36,7 +36,7 @@ function Main() {
                 </Card>
               </Col>
               <Col>
-                <Card>
+                <Card className="h-400">
                   <Card.Body>
                     <Card.Title className="mt-3 mb-4">
                       <small>20 oct 2019 | by</small>
@@ -53,7 +53,7 @@ function Main() {
                 </Card>
               </Col>
               <Col>
-                <Card>
+                <Card className="h-400">
                   <Card.Body>
                     <Card.Title className="mt-3 mb-4">
                       <small>20 oct 2019 | by</small>

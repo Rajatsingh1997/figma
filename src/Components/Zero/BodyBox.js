@@ -1,16 +1,16 @@
 import React from "react";
 import "./BodyBox.css";
 import {Container} from "react-bootstrap";
-import first from "../Assets/first.svg";
-import secondimg from "../Assets/second.svg";
-import third from "../Assets/third.svg";
+import first from "../../Assets/first.svg";
+import secondimg from "../../Assets/second.svg";
+import third from "../../Assets/third.svg";
 function BodyBox() {
   return (
     <>
     <Container>
     <div className="main">
       <div className="row">
-        <div className="col-sm-4 box1">
+        <div className="col-sm-12 col-md-6 col-lg-4 box1">
           <div className="card forshadow"> 
             <div className="card-body">
               <img className="first mx-auto d-block" src={first} />
@@ -23,8 +23,8 @@ function BodyBox() {
             </div>
           </div>
         </div>
-        <div className="col-sm-4">
-          <div className="card forshadow">
+        <div className="col-sm-12 col-md-6 col-lg-4 ">
+          <div className="card forshadow mb-5">
             <div className="card-body">
               <img className="secondimg mx-auto d-block" src={secondimg} />
               <h5 className="card-title">Continuouse Improvement</h5>
@@ -36,7 +36,7 @@ function BodyBox() {
             </div>
           </div>
         </div>
-        <div className="col-sm-4">
+        <div className="col-sm-12 col-md-6 col-lg-4">
           <div className="card forshadow">
             <div className="card-body">
               <img className="third mx-auto d-block" src={third} />

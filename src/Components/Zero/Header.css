@@ -1,5 +1,5 @@
 .header-one {
-  background-image: url("../Assets/Black.svg");
+  background-image: url("../../Assets/Black.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -33,7 +33,7 @@
   font-size: 14px;
   text-align: center;
   margin: auto;
-  margin-top: 25px;
+  /* margin-top: 25px; */
   display: flex !important;
   justify-content: center;
  

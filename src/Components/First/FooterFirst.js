@@ -1,46 +1,29 @@
 import React from "react";
 import { Container, Button,Row,Col } from "react-bootstrap";
-import Contact from "../Assets/Contact.svg";
-import big from "../Assets/big.svg";
-import asd from "../Assets/asd.svg";
-import left from "../Assets/left.png";
-import mid from "../Assets/mid.png";
-import right from "../Assets/right.png";
-import "./Footer.css";
-function Footer() {
+import Contact from "../../Assets/Contact.svg";
+import big from "../../Assets/big.svg";
+import asd from "../../Assets/asd.svg";
+// import left from "../Assets/left.png";
+// import mid from "../Assets/mid.png";
+// import right from "../Assets/right.png";
+import "./FooterFirst.css";
+
+function FooterFirst() {
   return (
     <>
-      <div className="mx-5">
-      <div className="aboveicos">
-       <Row className="text-center">
-        <Col></Col>
-        <Col><h1 className="trused">Trusted by</h1></Col>
-        <Col></Col>
-        </Row>
-        </div>
-        
-        <div className="belowForm">
-        <Row className="justify-content-around ">
-        <Col sm={0}></Col>
-        <Col sm={3}> <img className="img_left" src={left}/></Col>
-        <Col sm={3}><img className="img_mid" src={mid} /></Col>
-        <Col sm={3}><img className="img_right" src={right} /></Col>
-        <Col sm={0}></Col>
-        </Row>
-        </div>
-        </div>
-        <Container className="mb-4">
+        <hr/>
+        <Container>
         <div className="mt-5 mb-2">
           <div className="row">
             <div className="col-4">
               {" "}
-              <img className="Contact" src={Contact}/>
+              <img className="Contact" src={Contact} />
             </div>
             <div className="col-4 text-center">
               <img className="big" src={big} />
               <br />
               <p className="text-primary mt-4">BLOG</p>
-              <img className="" src={asd} />
+              <img className="asd" src={asd} />
             </div>
             <div className="tophead col-4">
               <span className="top mb-1">Turn ideas into innovations</span>
@@ -57,16 +40,17 @@ function Footer() {
         </div>
       </Container>
       <hr />
-
+   <Container>
       <small
         className="d-flex justify-content-end"
-        style={{ marginRight: "170px", fontWeight: "500" }}
+        style={{fontWeight: "500" }}
       >
         ©2019 - IDEX | All rights reserved
       </small>
+      </Container>
       <hr />
     </>
   );
 }
 
-export default Footer;
+export default FooterFirst;

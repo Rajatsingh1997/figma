@@ -9,6 +9,8 @@
 }
 .forshadow{
   box-shadow: 0 37px 28px 0px #c2d1d9, 16px 14px 38px 13px #ffffff;
+  min-width: 300px !important;
+  min-height: 244px !important;
 }
 .box1 {
   background-color: rgba(229, 229, 229, 0.1);
@@ -33,6 +35,4 @@ small{
 .card-titlefirst{
   margin-top: 12px;
 }
-.card{
-  min-height: 244px !important;
-}
+
