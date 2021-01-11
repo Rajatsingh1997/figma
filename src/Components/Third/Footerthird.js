@@ -31,8 +31,8 @@ function Footerthird() {
                 Start collecting ideas for the next big thing in your
                 organization now!<br/>
               </span>
-              <Button variant="primary" className="footerbtn">
-                <span className="lastbtn">Get Started!</span>
+              <Button variant="primary" className="footerbtnthird">
+                <span className="">Get Started!</span>
               </Button>{" "}
             </div>
           </div>

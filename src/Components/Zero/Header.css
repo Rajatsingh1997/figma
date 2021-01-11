@@ -48,15 +48,15 @@
   top: 278px;
   border-radius: 0px;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
   .Group {
   width: 150px;
     text-align: center; 
   }
   .Group2 {
-    /* display: block; */
+
     text-align: center;
-    width: 150px;
+    width: 130px;
   }
 }
 

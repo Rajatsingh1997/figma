@@ -10,8 +10,8 @@ function BodyBox() {
     <Container>
     <div className="main">
       <div className="row">
-        <div className="col-sm-12 col-md-6 col-lg-4 box1">
-          <div className="card forshadow"> 
+        <div className="col-sm-12 col-md-6 col-lg-4">
+          <div className="card forshadow mt-2"> 
             <div className="card-body">
               <img className="first mx-auto d-block" src={first} />
               <h5 className="card-titlefirst">Employee Engagement</h5>
@@ -23,8 +23,8 @@ function BodyBox() {
             </div>
           </div>
         </div>
-        <div className="col-sm-12 col-md-6 col-lg-4 ">
-          <div className="card forshadow mb-5">
+        <div className="col-sm-12 col-md-6 col-lg-4">
+          <div className="card forshadow mt-2">
             <div className="card-body">
               <img className="secondimg mx-auto d-block" src={secondimg} />
               <h5 className="card-title">Continuouse Improvement</h5>
@@ -37,7 +37,7 @@ function BodyBox() {
           </div>
         </div>
         <div className="col-sm-12 col-md-6 col-lg-4">
-          <div className="card forshadow">
+          <div className="card forshadow mt-2">
             <div className="card-body">
               <img className="third mx-auto d-block" src={third} />
               <h5 className="card-title">High Return of Investment</h5>

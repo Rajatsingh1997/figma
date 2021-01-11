@@ -19,7 +19,7 @@ function Main() {
           <div className="mt-4">
             <Row>
               <Col>
-                <Card className="h-400">
+                <Card className="h-100">
                   <Card.Body>
                     <Card.Title className="mt-3 mb-4">
                       <small>20 oct 2019 | by</small>
@@ -36,7 +36,7 @@ function Main() {
                 </Card>
               </Col>
               <Col>
-                <Card className="h-400">
+                <Card className="h-100">
                   <Card.Body>
                     <Card.Title className="mt-3 mb-4">
                       <small>20 oct 2019 | by</small>
@@ -53,7 +53,7 @@ function Main() {
                 </Card>
               </Col>
               <Col>
-                <Card className="h-400">
+                <Card className="h-100">
                   <Card.Body>
                     <Card.Title className="mt-3 mb-4">
                       <small>20 oct 2019 | by</small>

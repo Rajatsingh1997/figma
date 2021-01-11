@@ -29,7 +29,7 @@ function Footersecnd() {
                 Start collecting ideas for the next big thing in your
                 organization now!<br/>
               </span>
-              <Button variant="primary" className="footerbtn">
+              <Button variant="primary" className="footerbtnsec">
                 <span className="lastbtn">Get Started!</span>
               </Button>{" "}
             </div>
