@@ -1,0 +1,83 @@
+.header-one {
+  background-image: url("../../Assets/Black.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.firstrow {
+  font-family: url("https://fonts.googleapis.com/css?family=Noto Sans");
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 168px;
+}
+.second {
+  left: 442px;
+  top: 328px;
+  border-radius: nullpx;
+  font-family: url("https://fonts.googleapis.com/css?family=Roboto");
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.secondbtn {
+  height: 40px;
+  min-width: 166px;
+  left: 637px;
+  top: 391px;
+  font-size: 14px;
+  text-align: center;
+  margin: auto;
+  /* margin-top: 25px; */
+  display: flex !important;
+  justify-content: center;
+ 
+}
+.Group {
+  margin-top: 5px;
+  margin-bottom: 80px; 
+}
+.Group2 {
+  height: 275px;
+  left: 987px;
+  top: 278px;
+  border-radius: 0px;
+}
+@media only screen and (max-width: 900px) {
+  .Group {
+  width: 150px;
+    text-align: center; 
+  }
+  .Group2 {
+    /* display: block; */
+    text-align: center;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 557px) {
+  .Group {
+  width: 80px;
+    text-align: center; 
+  }
+  .Group2 {
+    /* display: block; */
+    text-align: center;
+    width: 80px;
+  }
+}
+@media only screen and (max-width: 416px) {
+  .Group {
+    width: 50px;
+    text-align: center; 
+  }
+  .Group2 {
+    text-align: center;
+    width: 50px;
+  }
+}

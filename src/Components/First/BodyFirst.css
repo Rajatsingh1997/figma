@@ -1,0 +1,53 @@
+.Zijjin {
+    font-family: url("https://fonts.googleapis.com/css?family=Roboto");
+    font-size: 16px;
+  }
+  .steps {
+    font-family: url("https://fonts.googleapis.com/css?family=Noto Sans");
+    font-weight: 400;
+  }
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text {
+    font-family: url("https://fonts.googleapis.com/css?family=Roboto");
+  }
+   .tap{
+    font-weight: 600;
+    font-size: 21px;
+    color: rgba(51, 51, 51, 0.87);
+  
+  }
+  .para{
+        color: #666666;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .imgfirst {
+      width: 600px;
+    }
+  }
+  @media only screen and (max-width: 782px) {
+    .imgfirst {
+      width: 300px;
+    }
+    .twobdy {
+      width: 300px;
+    }
+    .group{
+        width: 30px;
+    }
+  }
+  @media only screen and (max-width: 982px) {
+      .twobdy {
+        width: 500px;
+      }
+    }
+  
+    @media only screen and (max-width: 550px) {
+      .twobdy {
+        width: 200px;
+      }
+    }

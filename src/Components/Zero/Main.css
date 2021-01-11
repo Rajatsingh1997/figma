@@ -1,0 +1,38 @@
+.bground {
+  background-image: url("../../Assets/Rectangle.png");
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.run {
+  text-align: center;
+  margin-top: 15px;
+}
+.keep {
+  margin-top: 80px;
+}
+.connect {
+  margin-top: 16px;
+  height: 21px;
+  width: 483px;
+  left: 478px;
+  top: 621px;
+
+}
+.learn {
+  height: 48px;
+  width: 539.2413940429688px;
+  left: 450.3792724609375px;
+  top: 125px;
+}
+.manage{
+    margin-bottom: -90px;
+}
+#Card{
+    font-family: url('https://fonts.googleapis.com/css?family=Noto Sans');
+}
+.centerdiv{
+    justify-content: center;
+}
