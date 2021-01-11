@@ -1,0 +1,86 @@
+.bodybg {
+  background-image: url(../../Assets/bglast.png);
+}
+.plans {
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  font-family: url("https://fonts.googleapis.com/css?family=Noto Sans");
+  margin-top: 56px;
+}
+.Choose {
+  display: flex;
+  justify-content: center;
+  font-family: url("https://fonts.googleapis.com/css?family=Noto Sans");
+  margin-top: 0 !important;
+  font-size: 14px;
+  margin-bottom: 64px;
+}
+.Doller{
+    font-size: 38;
+    font-weight: 900;
+    color: #2D8DFC;
+}
+.Contan{
+    font-family: url("https://fonts.googleapis.com/css?family=Ubuntu");
+}
+.Success{
+    color: rgba(51, 51, 51, 0.2);
+}
+.family{
+    font-family: url("https://fonts.googleapis.com/css?family=Ubuntu");
+}
+.Frequently{
+    font-family: url("https://fonts.googleapis.com/css?family=Noto Sans");
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+}
+.stay{
+    font-family: url("https://fonts.googleapis.com/css?family=Noto Sans"); 
+    display: flex;
+    justify-content: center;
+    color: 333333, 87%;
+    font-size: 21px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.Forshadow{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+ .Others{
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+ }
+
+ .secfam{
+    font-family: url("https://fonts.googleapis.com/css?family=Noto Sans"); 
+ }
+ .btnbox {
+  color: black;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  }
+
+  .textbody{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+  }
+  .acBtn{
+    box-shadow: none !important;
+    text-decoration: none !important;
+    padding: 0;
+    width: 100%;
+  }
+
