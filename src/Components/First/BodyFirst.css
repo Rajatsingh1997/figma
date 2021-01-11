@@ -23,6 +23,10 @@
   .para{
         color: #666666;
   }
+  .Issue{
+    display:flex !important;
+    justify-content: space-between !important;
+  }
   
   @media only screen and (max-width: 1200px) {
     .imgfirst {

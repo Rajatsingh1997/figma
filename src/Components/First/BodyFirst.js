@@ -161,11 +161,11 @@ function BodyFirst() {
                   next.”
                 </p>
               </div>
-              <div className="mt-3 d-flex justify-content-space-between">
-                <a href="#" className=" justify-content-between">
+              <div className="Issue">
+                <a href="" className="">
                   Previous article
                 </a>
-                <a href="#" className=" justify-content-between">
+                <a href="" className="">
                   Next article{" "}
                 </a>
               </div>

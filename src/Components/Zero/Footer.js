@@ -14,7 +14,7 @@ function Footer() {
       <div className="aboveicos">
        <Row className="text-center">
         <Col></Col>
-        <Col><h1 className="trused">Trusted by</h1></Col>
+        <Col><h1 className="trused mt-3">Trusted by</h1></Col>
         <Col></Col>
         </Row>
         </div>
@@ -33,17 +33,17 @@ function Footer() {
         <Container className="mb-4">
         <div className="mt-5 mb-2 forbodr">
           <div className="row">
-            <div className="col-4">
+            <div className="col lg-4 md-12 sm-12">
               {" "}
               <img className="Contact" src={Contact}/>
             </div>
-            <div className="col-4 text-center">
+            <div className="col lg-4 md-12 sm-12 text-center">
               <img className="big" src={big} />
               <br />
               <p className="text-primary mt-4">BLOG</p>
               <img className="asd" src={asd} />
             </div>
-            <div className="tophead col-4">
+            <div className="tophead col lg-4 md-12 sm-12 mx-0">
               <span className="top mb-1">Turn ideas into innovations</span>
               <br />
               <span className="sendtop">

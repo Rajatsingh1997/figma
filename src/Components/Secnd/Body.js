@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Card, Button, Accordion, Col } from "react-bootstrap";
 import "./Body.css";
+import dropdown from "../../Assets/dropdown.png";
 function Body() {
   const [setActive, setActiveState] = useState("");
   const [setHeight, setHeightState] = useState("0px");
@@ -211,9 +212,11 @@ function Body() {
                           as={Button}
                           variant="link"
                           eventKey="0"
-                          className="btnbox"
-                        >
+                          className="acBtn"
+                        >  <div className="d-flex justify-content-between">
                           <span className="btnbox">Can I cancel my subscription?</span>
+                          <span><img src={dropdown}/></span>
+                          </div>
                         </Accordion.Toggle>
                       </Card.Header>
                       <Accordion.Collapse eventKey="0">
@@ -235,8 +238,12 @@ function Body() {
                           as={Button}
                           variant="link"
                           eventKey="0"
+                          className="acBtn"
                         >
+                        <div className="d-flex justify-content-between">
                          <span className="btnbox"> What are my payment options?</span>
+                         <span><img src={dropdown}/></span>
+                         </div>
                         </Accordion.Toggle>
                       </Card.Header>
                       <Accordion.Collapse eventKey="0">
@@ -260,9 +267,12 @@ function Body() {
                           as={Button}
                           variant="link"
                           eventKey="0"
-                          className="btnbox"
+                          className="acBtn"
                         >
+                        <div className="d-flex justify-content-between">
                           <span className="btnbox">How is my data protected?</span>
+                          <span><img src={dropdown}/></span>
+                          </div>
                         </Accordion.Toggle>
                       </Card.Header>
                       <Accordion.Collapse eventKey="0">
@@ -286,10 +296,15 @@ function Body() {
                         <Accordion.Toggle
                           as={Button}
                           variant="link"
+                          className="acBtn"
                           eventKey="0"
                         >
-                          <span className="btnbox">What happens if we collect more ideas than limited in
-                          the plan?</span>
+                        <div className="d-flex justify-content-between">
+                          <span className="btnbox">What happens if collect more ideas than limited in
+                          plan?</span>
+                          <span><img src={dropdown}/></span>
+                          </div>
+                          
                         </Accordion.Toggle>
                       </Card.Header>
                       <Accordion.Collapse eventKey="0">
